@@ -1,0 +1,26 @@
+<a href="#hero" class="nav-logo">
+        <!-- Logo SVG: arco verde com raio -->
+        <svg class="logo-svg" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <filter id="neon-logo">
+              <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+              <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+              </feMerge>
+            </filter>
+          </defs>
+          <!-- Outer arc -->
+          <path d="M10 30 A20 20 0 0 1 50 30" stroke="#0aee56" stroke-width="4" stroke-linecap="round" fill="none" filter="url(#neon-logo)"/>
+          <!-- Inner arc -->
+          <path d="M18 30 A12 12 0 0 1 42 30" stroke="#0aee56" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+          <!-- Lightning bolt -->
+          <path d="M33 16 L26 30 L31 30 L27 44 L36 27 L31 27 Z" fill="#0aee56" filter="url(#neon-logo)"/>
+        </svg>
+        <div class="logo-text">
+          <span class="logo-name">PLUS<span class="logo-rn">RN</span></span>
+          <span class="logo-sub">ENERGIA SOLAR</span>
+        </div>
+      </a>-->
+
+      
